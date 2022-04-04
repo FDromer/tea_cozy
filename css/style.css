@@ -94,24 +94,13 @@ nav a {
 	flex-direction: column;
 }
 
-.tea_box_zero,
 .tea_box_one {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 4rem;
 }
 
-.month-box {
-  display: flex;
-	flex-direction: row;
-	justify-content: space-evenly;
-	align-items: center;
-	flex-wrap: wrap;
-	flex-flow: row wrap;
-}
-
-.month-box .tea_box_zero .tea_box_one img {
+.image {
   width: 300px;
 	height: 200px;
 	margin-top: 9px;
