@@ -94,7 +94,15 @@ nav a {
 	flex-direction: column;
 }
 
-.month-box .tea-box {
+.tea_box_zero,
+.tea_box_one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 4rem;
+}
+
+.month-box {
   display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
