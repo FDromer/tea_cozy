@@ -111,7 +111,7 @@ nav a {
 	flex-flow: row wrap;
 }
 
-.month-box .tea-box img {
+.month-box .tea_box_zero .tea_box_one img {
   width: 300px;
 	height: 200px;
 	margin-top: 9px;
