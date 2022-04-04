@@ -94,17 +94,22 @@ nav a {
 	flex-direction: column;
 }
 
-.tea_box_zero,
-.tea_box_one {
+.tea-box {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
   align-items: center;
+  justify-content: center;
 }
 
-.imag {
+.dim-img {
+  padding: 0 20px 20px;
+}
+
+.month-box .tea-box img {
   width: 300px;
-	height: 200px;
-	margin-top: 9px;
+  height: 200px;
+  margin-top: 9px;
 }
 
 figcaption {
