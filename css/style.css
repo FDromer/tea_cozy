@@ -94,13 +94,14 @@ nav a {
 	flex-direction: column;
 }
 
+.tea_box_zero,
 .tea_box_one {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.image {
+.imag {
   width: 300px;
 	height: 200px;
 	margin-top: 9px;
