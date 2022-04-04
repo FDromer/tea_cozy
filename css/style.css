@@ -1,0 +1,159 @@
+/*full body specification*/
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: #000;
+  opacity: 0.9;
+  text-align: center;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*full header specification*/
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 69px;
+  width: 100%;
+  background-color: #000;
+  opacity: 0.8;
+  border-bottom: 1px solid seashell;
+}
+
+.logo {
+  float: left;
+  height: 50px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  display: inline-flex;
+  margin-right: 30px;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+nav a {
+  color: seashell;
+}
+
+/*full first background image 
+700px
+1200px
+*/
+.first-background-image {
+  background-image: url("../images/img-mission-background.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 130vh;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.frontend-texto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+}
+
+.frontend-texto .texto-h {
+  width: 100%;
+  background-color: #000;
+  margin: 0;
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/**/
+.month-box {
+  width: 75%;
+	height: auto;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.month-box .tea-box {
+  display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-wrap: wrap;
+	flex-flow: row wrap;
+}
+
+.month-box .tea-box img {
+  width: 300px;
+	height: 200px;
+	margin-top: 9px;
+}
+
+figcaption {
+  font-weight: bold;
+}
+
+/**/
+.second-background-image {
+  width: 90%;
+  height: 575px;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 25px;
+  background-image: url("../images/img-locations-background.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.location-items {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap:  wrap;
+}
+
+.downtown {
+  width: 300px;
+  height: auto;
+  margin: 0 auto;
+  background: #000;
+  opacity: 1;
+}
+
+/*footer full specification*/
+.footer-tea {
+  height: 200px;
+  text-align: center;
+}
+
+.footer-copy {
+  text-align: left;
+  margin-left: 20px;
+}
