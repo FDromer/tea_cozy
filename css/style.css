@@ -84,13 +84,10 @@ nav a {
 }
 
 /**/
-.month-box {
-  width: 100%;
+#month-box {
+  max-width: 100%;
 	height: auto;
 	margin: 0 auto;
-	display: flex;
-	justify-content: center;
-	align-items: center;
 }
 
 .month-feature {
