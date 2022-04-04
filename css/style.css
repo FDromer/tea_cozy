@@ -100,8 +100,6 @@ nav a {
 .tea-box {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
-  align-items: center;
   justify-content: center;
 }
 
@@ -109,10 +107,10 @@ nav a {
   padding: 0 20px 20px;
 }
 
-.month-box .tea-box img {
+.tea-box img {
   width: 300px;
   height: 200px;
-  margin-top: 9px;
+  margin: 10px auto;
 }
 
 figcaption {
