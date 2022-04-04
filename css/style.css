@@ -94,6 +94,10 @@ nav a {
 	flex-direction: row;
 }
 
+.month-feature {
+  width: 1000px;
+}
+
 .tea-box {
   display: flex;
   flex-wrap: wrap;
