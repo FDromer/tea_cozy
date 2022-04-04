@@ -91,7 +91,7 @@ nav a {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	flex-direction: column;
+	flex-direction: row;
 }
 
 .tea-box {
@@ -100,6 +100,7 @@ nav a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  flex-flow: row wrap;
 }
 
 .dim-img {
