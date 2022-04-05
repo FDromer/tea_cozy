@@ -1,4 +1,4 @@
-/*full body specification*/
+/*full tea cozy body specification*/
 body {
   font-family: Helvetica;
   font-size: 22px;
@@ -11,7 +11,7 @@ body {
   padding: 0;
 }
 
-/*full header specification*/
+/*full tea cozy header specification*/
 header {
   position: fixed;
   top: 0;
@@ -49,9 +49,9 @@ nav a {
   color: seashell;
 }
 
-/*full first background image 
-700px
-1200px
+/*full tea cozy main background image 
+700px height convert in 130 vh to make the height represent a % of the browser
+1200px width convert in 90% to make the image responvise
 */
 .first-background-image {
   background-image: url("../images/img-mission-background.webp");
@@ -83,15 +83,11 @@ nav a {
   text-align: center;
 }
 
-/**/
+/*full tea cozy month boxes specifications*/
 #month-box {
   max-width: 100%;
 	height: auto;
 	margin: 0 auto;
-}
-
-.month-feature {
-  width: 1000px;
 }
 
 .tea-box {
@@ -114,7 +110,7 @@ figcaption {
   font-weight: bold;
 }
 
-/**/
+/*full tea cozy location background image*/
 .second-background-image {
   width: 90%;
   height: 575px;
@@ -148,7 +144,7 @@ figcaption {
   opacity: 1;
 }
 
-/*footer full specification*/
+/*full tea cozy footer specification*/
 .footer-tea {
   height: 200px;
   text-align: center;
