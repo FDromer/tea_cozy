@@ -41,12 +41,39 @@ nav ul {
 nav li {
   display: inline-flex;
   margin-right: 30px;
-  text-decoration: underline;
   font-weight: bold;
 }
 
 nav a {
   color: seashell;
+  text-decoration: none;
+}
+
+/**/
+@media only screen and (min-width: 320px) and (max-width: 768) and (orientation: landscape) {
+  .logo {
+    margin: auto;
+
+  }
+  
+  nav li {
+    display: inline-flex;
+    margin-right: 30px;
+    font-weight: bold;
+  }
+
+  nav {
+    float: right;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav a {
+    color: seashell;
+    text-decoration: none;
+  }
 }
 
 /*full tea cozy main background image 
@@ -77,6 +104,7 @@ nav a {
 .frontend-texto .texto-h {
   width: 100%;
   background-color: #000;
+  opacity: 1;
   margin: 0;
   padding: 10px;
   font-weight: bold;
@@ -144,13 +172,47 @@ figcaption {
   opacity: 1;
 }
 
+
 /*full tea cozy footer specification*/
 .footer-tea {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   height: 200px;
-  text-align: center;
+  margin-bottom: 100px;
+}
+
+.footer-tea p {
+  margin: 10px 0;
+  font-size: 20px;
+}
+
+.footer-tea .copy-fon {
+  margin: 20px 0;
+}
+
+.copy-fon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 30px;
+  padding-bottom: 30px;
+  font-size: 17px;
+  height: 50px;
+}
+
+.anwsome {
+  display: flex;
+  justify-content: flex-start;
+  letter-spacing: 17px;
+  margin-left: 20px;
+  color: white;
+  padding-bottom: 5px;
 }
 
 .footer-copy {
-  text-align: left;
-  margin-left: 20px;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+  padding-bottom: 5px;
 }

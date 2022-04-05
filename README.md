@@ -1,8 +1,11 @@
 # The Tea Cozy
-## The fictional tea shop webpage with some advanced CSS
+[Tea Cozy](https://fdromer.github.io/tea_cozy/)
+![Hot cup of Tea](images/img-warm-cup-tea.jpg)
+## The fictional tea webpage focus CSS design
 ### Technologies
 + HTML
++ Favicon
++ Font Awesome 
 + CSS 
-  - Flexbox
-  - Media queries
-  
++ Visual Studio
+
