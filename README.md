@@ -1,9 +1,9 @@
 # The Tea Cozy
-Below The Tea Cozy Web page
+The Tea Cozy Web page below.
 
-[Tea Cozy link](https://fdromer.github.io/tea_cozy/)
+:point_right: [Tea Cozy link](https://fdromer.github.io/tea_cozy/)
 
-![Hot cup of Tea](images/img-warm-cup-tea.jpg)
+              ![Hot cup of Tea](images/img-warm-cup-tea.jpg)
 ## The fictional tea webpage focus CSS design
 ### Technologies
 + HTML
