@@ -49,33 +49,6 @@ nav a {
   text-decoration: none;
 }
 
-/**/
-@media only screen and (min-width: 320px) and (max-width: 768) and (orientation: landscape) {
-  .logo {
-    margin: auto;
-
-  }
-  
-  nav li {
-    display: inline-flex;
-    margin-right: 30px;
-    font-weight: bold;
-  }
-
-  nav {
-    float: right;
-  }
-  
-  nav ul {
-    list-style: none;
-  }
-  
-  nav a {
-    color: seashell;
-    text-decoration: none;
-  }
-}
-
 /*full tea cozy main background image 
 700px height convert in 130 vh to make the height represent a % of the browser
 1200px width convert in 90% to make the image responvise
