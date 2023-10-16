@@ -1,9 +1,16 @@
+/* var for root element */
+:root {
+  --seashell-color: seashell;
+  --black-color: #000;
+  --white-color: #fff;
+}
+
 /*full tea cozy body specification*/
 body {
   font-family: Helvetica;
   font-size: 22px;
-  color: seashell;
-  background-color: #000;
+  color: var(--seashell-color);
+  background-color: var(--black-color);
   opacity: 0.9;
   text-align: center;
   box-sizing: border-box;
@@ -18,9 +25,9 @@ header {
   left: 0;
   height: 69px;
   width: 100%;
-  background-color: #000;
+  background-color: var(--black-color);
   opacity: 0.8;
-  border-bottom: 1px solid seashell;
+  border-bottom: 1px solid var(--seashell-color);
 }
 
 .logo {
@@ -45,7 +52,7 @@ nav li {
 }
 
 nav a {
-  color: seashell;
+  color: var(--seashell-color);
   text-decoration: none;
 }
 
@@ -76,7 +83,7 @@ nav a {
 
 .frontend-texto .texto-h {
   width: 100%;
-  background-color: #000;
+  background-color: var(--black-color);
   opacity: 1;
   margin: 0;
   padding: 10px;
@@ -141,7 +148,7 @@ figcaption {
   width: 300px;
   height: auto;
   margin: 0 auto;
-  background: #000;
+  background: var(--black-color);
   opacity: 1;
 }
 
@@ -179,7 +186,7 @@ figcaption {
   justify-content: flex-start;
   letter-spacing: 17px;
   margin-left: 20px;
-  color: white;
+  color: var(--white-color);
   padding-bottom: 5px;
 }
 
