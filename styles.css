@@ -129,7 +129,7 @@ figcaption {
   align-items: center;
   margin: 0 auto;
   margin-top: 25px;
-  background-image: url("image/img-locations-background.webp");
+  background-image: url("/image/img-locations-background.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
