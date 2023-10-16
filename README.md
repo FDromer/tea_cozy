@@ -2,5 +2,5 @@
 
 &rarr; from [codecademy](https://www.codecademy.com/)
 
-&rarr; [Tea Cozy]()
+&rarr; [Tea Cozy](https://fdromer.github.io/tea_cozy/)
 
