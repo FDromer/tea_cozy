@@ -61,7 +61,7 @@ nav a {
 1200px width convert in 90% to make the image responvise
 */
 .first-background-image {
-  background-image: url("../image/img-mission-background.webp");
+  background-image: url("image/img-mission-background.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
